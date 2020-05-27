@@ -1,0 +1,220 @@
+App.progressCountTotal = 27;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///D|/MyDocuments/My Pictures/FamilyAlbum/Picture 003.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'Picture 003.jpg';
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Picture 003_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Picture 003_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Picture 003_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Picture 003_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Picture 003_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Picture 003_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/MyDocuments/My Pictures/FamilyAlbum/Picture 018.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'Picture 018.jpg';
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Picture 018_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Picture 018_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Picture 018_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Picture 018_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Picture 018_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Picture 018_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/MyDocuments/My Pictures/FamilyAlbum/Picture 019.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'Picture 019.jpg';
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Picture 019_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Picture 019_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Picture 019_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Picture 019_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Picture 019_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Picture 019_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/MyDocuments/My Pictures/FamilyAlbum/Relatives 001.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'Relatives 001.jpg';
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 001_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 001_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 001_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 001_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/MyDocuments/My Pictures/FamilyAlbum/Relatives 005.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'Relatives 005.jpg';
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 005_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 005_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 005_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 005_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 005_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 005_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/MyDocuments/My Pictures/FamilyAlbum/Relatives 007.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'Relatives 007.jpg';
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 007_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 007_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 007_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 007_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 007_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 007_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/MyDocuments/My Pictures/FamilyAlbum/Relatives 015.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'Relatives 015.jpg';
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 015_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 015_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 015_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 015_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 015_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 015_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/MyDocuments/My Pictures/FamilyAlbum/Relatives 016.jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'Relatives 016.jpg';
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 016_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 016_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 016_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 016_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 016_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 016_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/MyDocuments/My Pictures/FamilyAlbum/Relatives 028.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'Relatives 028.jpg';
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 028_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 028_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 028_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 028_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 028_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 028_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/MyDocuments/My Pictures/FamilyAlbum/Relatives 030.jpg');
+App.progressCountCurrent = 10;
+App.batchStatusString = 'Relatives 030.jpg';
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 030_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 030_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 030_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 030_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 030_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 030_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/MyDocuments/My Pictures/FamilyAlbum/Relatives 031.jpg');
+App.progressCountCurrent = 11;
+App.batchStatusString = 'Relatives 031.jpg';
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 031_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 031_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 031_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 031_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 031_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 031_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/MyDocuments/My Pictures/FamilyAlbum/Relatives 032.jpg');
+App.progressCountCurrent = 12;
+App.batchStatusString = 'Relatives 032.jpg';
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 032_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 032_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 032_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 032_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 032_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 032_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/MyDocuments/My Pictures/FamilyAlbum/Relatives 033.jpg');
+App.progressCountCurrent = 13;
+App.batchStatusString = 'Relatives 033.jpg';
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 033_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 033_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 033_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 033_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 033_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 033_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/MyDocuments/My Pictures/FamilyAlbum/Relatives 035.jpg');
+App.progressCountCurrent = 14;
+App.batchStatusString = 'Relatives 035.jpg';
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 035_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 035_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 035_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 035_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 035_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 035_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/MyDocuments/My Pictures/FamilyAlbum/Relatives 039.jpg');
+App.progressCountCurrent = 15;
+App.batchStatusString = 'Relatives 039.jpg';
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 039_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 039_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 039_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 039_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 039_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 039_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/MyDocuments/My Pictures/FamilyAlbum/Relatives 040.jpg');
+App.progressCountCurrent = 16;
+App.batchStatusString = 'Relatives 040.jpg';
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 040_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 040_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 040_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 040_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 040_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 040_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/MyDocuments/My Pictures/FamilyAlbum/Relatives 045.jpg');
+App.progressCountCurrent = 17;
+App.batchStatusString = 'Relatives 045.jpg';
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 045_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 045_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 045_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 045_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 045_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 045_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/MyDocuments/My Pictures/FamilyAlbum/Relatives 050.jpg');
+App.progressCountCurrent = 18;
+App.batchStatusString = 'Relatives 050.jpg';
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 050_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 050_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 050_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 050_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 050_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 050_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/MyDocuments/My Pictures/FamilyAlbum/Relatives 052.jpg');
+App.progressCountCurrent = 19;
+App.batchStatusString = 'Relatives 052.jpg';
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 052_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 052_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 052_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 052_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 052_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 052_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/MyDocuments/My Pictures/FamilyAlbum/Relatives 057.jpg');
+App.progressCountCurrent = 20;
+App.batchStatusString = 'Relatives 057.jpg';
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 057_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 057_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 057_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 057_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 057_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 057_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/MyDocuments/My Pictures/FamilyAlbum/Relatives 058.jpg');
+App.progressCountCurrent = 21;
+App.batchStatusString = 'Relatives 058.jpg';
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 058_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 058_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 058_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 058_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 058_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 058_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/MyDocuments/My Pictures/FamilyAlbum/Relatives 064.jpg');
+App.progressCountCurrent = 22;
+App.batchStatusString = 'Relatives 064.jpg';
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 064_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 064_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 064_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 064_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 064_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 064_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/MyDocuments/My Pictures/FamilyAlbum/Relatives 065.jpg');
+App.progressCountCurrent = 23;
+App.batchStatusString = 'Relatives 065.jpg';
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 065_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 065_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 065_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 065_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 065_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 065_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/MyDocuments/My Pictures/FamilyAlbum/Relatives 067.jpg');
+App.progressCountCurrent = 24;
+App.batchStatusString = 'Relatives 067.jpg';
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 067_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 067_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 067_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 067_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 067_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 067_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/MyDocuments/My Pictures/FamilyAlbum/Relatives 075.jpg');
+App.progressCountCurrent = 25;
+App.batchStatusString = 'Relatives 075.jpg';
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 075_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 075_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 075_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 075_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 075_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 075_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/MyDocuments/My Pictures/FamilyAlbum/Relatives 082.jpg');
+App.progressCountCurrent = 26;
+App.batchStatusString = 'Relatives 082.jpg';
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 082_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 082_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 082_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 082_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 082_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 082_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///D|/MyDocuments/My Pictures/FamilyAlbum/Relatives 113.jpg');
+App.progressCountCurrent = 27;
+App.batchStatusString = 'Relatives 113.jpg';
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 113_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 113_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/images/Relatives 113_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 113_jpg.jpg') || confirm('file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 113_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/wwwroot/wwwroot/home/_images/Family Album/thumbnails/Relatives 113_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+'done';

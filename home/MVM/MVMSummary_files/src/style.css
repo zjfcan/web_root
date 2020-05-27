@@ -1,0 +1,107 @@
+    <style type="text/css">
+	
+	#header { position: absolute; left: 32; top: 18; }
+	#message1
+		{ 
+			position: absolute; 
+			left: 200; 
+			top: 135; 
+			z-index: 10; 
+			visibility: hidden; 
+			width: 260;
+			background-color: white;
+			border-width: 3;
+			border-color: #999999;
+			border-style: double;
+			padding: 10;
+			font-family: '‚l‚r ‚oƒSƒVƒbƒN', verdana, sans-serif; 
+			font-size: 14px;
+		}
+	#message2
+		{ 
+			position: absolute; 
+			left: 400; 
+			top: 120; 
+			z-index: 10; 
+			visibility: hidden; 
+			width: 260;
+			background-color: white;
+			border-width: 3;
+			border-color: #999999;
+			border-style: double;
+			padding: 10;
+			font-family: '‚l‚r ‚oƒSƒVƒbƒN', verdana, sans-serif; 
+			font-size: 14px;
+		}
+	#message3
+		{ 
+			position: absolute; 
+			left: 400; 
+			top: 200; 
+			z-index: 10; 
+			visibility: hidden; 
+			width: 260;
+			background-color: white;
+			border-width: 3;
+			border-color: #999999;
+			border-style: double;
+			padding: 10;
+			font-family: '‚l‚r ‚oƒSƒVƒbƒN', verdana, sans-serif; 
+			font-size: 14px;
+		}
+	#message4
+		{ 
+			position: absolute; 
+			left: 580; 
+			top: 180; 
+			z-index: 10; 
+			visibility: hidden; 
+			width: 260;
+			background-color: white;
+			border-width: 3;
+			border-color: #999999;
+			border-style: double;
+			padding: 10;
+			font-family: '‚l‚r ‚oƒSƒVƒbƒN', verdana, sans-serif; 
+			font-size: 14px;
+		}
+	#message5
+		{ 
+			position: absolute; 
+			left: 480; 
+			top: 300; 
+			z-index: 10; 
+			visibility: hidden; 
+			width: 260;
+			background-color: white;
+			border-width: 3;
+			border-color: #999999;
+			border-style: double;
+			padding: 10;
+			font-family: '‚l‚r ‚oƒSƒVƒbƒN', verdana, sans-serif; 
+			font-size: 14px;
+		}
+	#message6
+		{ 
+			position: absolute; 
+			left: 580; 
+			top: 350; 
+			z-index: 10; 
+			visibility: hidden; 
+			width: 260;
+			background-color: white;
+			border-width: 3;
+			border-color: #999999;
+			border-style: double;
+			padding: 10;
+			font-family: '‚l‚r ‚oƒSƒVƒbƒN', verdana, sans-serif; 
+			font-size: 14px;
+		}
+		
+		.secHeader { font-family: '‚l‚r ‚oƒSƒVƒbƒN', verdana, sans-serif; font-size: 16px; font-weight: normal; color: #999999;}
+		.normaltext { font-family: '‚l‚r ‚oƒSƒVƒbƒN', verdana, sans-serif; font-size: 14px; }
+		.link { font-family: '‚l‚r ‚oƒSƒVƒbƒN', verdana, sans-serif; font-size: 14px; }
+		.boldlink { font-family: '‚l‚r ‚oƒSƒVƒbƒN', verdana, sans-serif; font-size: 12px; }
+		
+	</style>
+

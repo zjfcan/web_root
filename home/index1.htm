@@ -1,0 +1,272 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<xml:namespace ns="urn:schemas-microsoft-com:vml" prefix="v"/>
+<style type="text/css">
+v\:* { behavior: url(#default#VML); }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Jianfeng No.1 web</title>
+<style type="text/css">
+<!--
+body {background-image: url(Flash/changeShape.gif);}
+A.ssmItems:link		{color:black;text-decoration:none;}
+A.ssmItems:hover	{color:black;text-decoration:none;}
+A.ssmItems:active	{color:black;text-decoration:none;}
+A.ssmItems:visited	{color:black;text-decoration:none;}
+//-->
+</style>
+
+<SCRIPT SRC="js/sideMenu/ssm.js" language="JavaScript1.2">
+
+//Dynamic-FX slide in menu v6.5 (By maXimus, http://maximus.ravecore.com/)
+//Updated July 8th, 03' for doctype bug
+//For full source, and 100's more DHTML scripts, visit http://www.dynamicdrive.com
+
+</SCRIPT>
+
+<SCRIPT SRC="js/sideMenu/ssmItems.js" language="JavaScript1.2"></SCRIPT>
+</head>
+
+<body>
+<p>
+  <script type="text/javascript">
+
+/***********************************************
+* 3D Spinning Message Script- By Copyright (c) 2003 Peter Gehrig
+* Website: http://www.24fun.com
+* Script available at/modified by Dynamic Drive (http://www.dynamicdrive.com)
+* This notice must stay intact for use
+***********************************************/
+
+
+// Add as many messages as you like
+var message=new Array("Welcome to Jianfeng's site...", "Hope you will like it...", "If it makes you interested, you can contact with me...", "Enjoy!!!")
+
+// Set the outline-color. Add as many colors as you like
+var outlinecolor=new Array("black", "black")
+
+// Set fillcolors 1. Add as many colors as you like
+var fillcolor1=new Array("gray", "green", "white", "green")
+
+// Set fillcolors 2. Add as many colors as you like
+var fillcolor2=new Array("blue", "olive", "black", "lime")
+
+// Set the letter marking the circle
+var circlemark=new Array("-")
+
+// Set the width of the outline
+var strkweight=2
+
+// Set the waiting time between the messages (seconds)
+var pause=2
+
+// Set the strength of the opacity (transparency of letters)
+var strengthopacity="60%"
+
+// Set the size of the circle (values range from 0.1 to 1)
+var circlesize=0.5
+
+// Always keep messages in view even if page is scrolled? (DD added option)
+var keepinview="yes"
+
+// Do not edit below this line
+
+mytruebody=(!window.opera && document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body //Dynamicdrive added object
+
+var outerwidth=mytruebody.clientWidth
+var outerheight=mytruebody.clientHeight
+
+var innerwidth=Math.floor(circlesize*outerwidth)
+var innerheight=Math.floor(circlesize*outerheight)
+
+var posleft=(outerwidth-innerwidth)/2
+var postop=(outerheight-innerheight)/2
+
+var path=new Array()
+var i_message=0
+var i_outlinecolor=0
+var i_fillcolor1=0
+var i_fillcolor2=0
+var i_messagelength=0
+var longestmessage=0
+pause*=1000
+
+var ie=document.getElementById&&document.all?1:0 
+
+for (i=0;i<=message.length-1;i++) {
+	if (message[i].length>longestmessage) {
+		longestmessage=message[i].length
+	}
+	longestmessage+=4
+}
+
+for (i=0;i<=message.length-1;i++) {
+
+	var emptyspace=""
+	var i_emptyspace=(longestmessage-message[i].length)/2
+	for (ii=0;ii<=i_emptyspace;ii++) {
+		emptyspace+=circlemark
+	}
+	message[i]=emptyspace+" "+message[i]+" "+emptyspace
+}
+
+function changeform() {
+	if (keepinview=="yes") //DD added
+	document.getElementById("roofid").style.top=mytruebody.scrollTop //DD added
+	if (i_outlinecolor >= outlinecolor.length) {i_outlinecolor=0}
+	if (i_fillcolor1 >= fillcolor1.length) {i_fillcolor1=0}
+	if (i_fillcolor2 >= fillcolor2.length) {i_fillcolor2=0}
+	document.getElementById('strokeid').color=outlinecolor[i_outlinecolor]
+	document.getElementById('fillid').color=fillcolor1[i_fillcolor1]
+	document.getElementById('fillid').color2=fillcolor2[i_fillcolor2]
+	if (i_message < message.length) {tick()}
+	else {document.getElementById('textpathid').string=""
+//	document.getElementById("roofid").style.display="none" //DD added
+	}
+}
+
+function tick() {
+	if (i_messagelength <= message[i_message].length) {
+		var messagestringend=""
+		var messagestring=message[i_message].substring(0, i_messagelength)+messagestringend
+		document.getElementById('textpathid').string=messagestring
+		var timer=setTimeout("tick()",50)
+		i_messagelength++
+	}
+	else {
+		clearTimeout(timer)
+		i_messagelength=0
+		i_message++
+		i_outlinecolor++	
+		i_fillcolor1++	
+		i_fillcolor2++	
+		var timer=setTimeout("changeform()",pause)
+	}
+	
+}
+
+if (ie) {
+	document.write('<div id="roofid" style="position:absolute;left:0px;top:0px;width:'+outerwidth+'px;height:'+outerheight+'px;overflow:hidden;">')
+	document.write('<v:oval id="tc" style="position:absolute;top:'+postop+'px;left:'+posleft+'px;width:'+innerwidth+'px;height:'+innerheight+'px">')
+	document.write('<v:shadow on="t" opacity="'+strengthopacity+'"/>')
+	document.write('<v:stroke id="strokeid" weight="'+strkweight+'pt" color="blue"/>')
+	document.write('<v:fill id="fillid" on="True" color="'+fillcolor1[0]+'" color2="'+fillcolor2[0]+'" opacity="'+strengthopacity+'" opacity2="'+strengthopacity+'" type="gradient"/>')
+	document.write('<v:path textpathok="t"/>')
+	document.write('<v:textpath id="textpathid" on="t" id="mytp" style="font-family:\'Arial Black\'; " fitpath="t" string=""/>')
+	document.write('</v:oval></div>')
+	if (window.attachEvent) //DD added code
+	window.attachEvent("onload", changeform) //DD added code
+	else
+	window.onload=changeform
+}
+</script>
+  <script type="text/javascript">
+
+/******************************************
+* Snow Effect Script- By Altan d.o.o. (http://www.altan.hr/snow/index.html)
+* Visit Dynamic Drive DHTML code library (http://www.dynamicdrive.com/) for full source code
+* Last updated Nov 9th, 05' by DD. This notice must stay intact for use
+******************************************/
+  
+  //Configure below to change URL path to the snow image
+  var snowsrc="_images/snow.gif"
+  var Leafsrc="_images/leaf.gif"
+  // Configure below to change number of snow to render
+  var no = 10;
+  // Configure whether snow should disappear after x seconds (0=never):
+  var hidesnowtime = 0;
+  // Configure how much snow should drop down before fading ("windowheight" or "pageheight")
+  var snowdistance = "pageheight";
+
+///////////Stop Config//////////////////////////////////
+
+  var ie4up = (document.all) ? 1 : 0;
+  var ns6up = (document.getElementById&&!document.all) ? 1 : 0;
+
+	function iecompattest(){
+	return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
+	}
+
+  var dx, xp, yp;    // coordinate and position variables
+  var am, stx, sty;  // amplitude and step variables
+  var i, doc_width = 800, doc_height = 600; 
+  
+  if (ns6up) {
+    doc_width = self.innerWidth;
+    doc_height = self.innerHeight;
+  } else if (ie4up) {
+    doc_width = iecompattest().clientWidth;
+    doc_height = iecompattest().clientHeight;
+  }
+
+  alternative = 0;//Show leaves and snows alternatively
+  dx = new Array();
+  xp = new Array();
+  yp = new Array();
+  am = new Array();
+  stx = new Array();
+  sty = new Array();
+  snowsrc=(snowsrc.indexOf("dynamicdrive.com")!=-1)? "snow.gif" : snowsrc
+  for (i = 0; i < no; ++ i) {  
+    dx[i] = 0;                        // set coordinate variables
+    xp[i] = Math.random()*(doc_width-50);  // set position variables
+    yp[i] = Math.random()*doc_height;
+    am[i] = Math.random()*20;         // set amplitude variables
+    stx[i] = 0.02 + Math.random()/10; // set step variables
+    sty[i] = 0.7 + Math.random();     // set step variables
+		if (ie4up||ns6up) {
+      if (i == 0) {
+	  	if(alternative==0){
+	        document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px;\"><a href=\"http://dynamicdrive.com\"><img src='"+Leafsrc+"' border=\"0\"><\/a><\/div>");
+			alternative = 1;
+		}else{
+ 	       document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px;\"><a href=\"http://dynamicdrive.com\"><img src='"+snowsrc+"' border=\"0\"><\/a><\/div>");
+			alternative = 0;
+	   }
+     } else {
+	  	if(alternative==0){
+	        document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px;\"><img src='"+Leafsrc+"' border=\"0\"><\/div>");
+			alternative = 1;
+		}else{
+	        document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px;\"><img src='"+snowsrc+"' border=\"0\"><\/div>");
+			alternative = 0;
+	   }
+      }
+    }
+  }
+
+  function snowIE_NS6() {  // IE and NS6 main animation function
+    doc_width = ns6up?window.innerWidth-10 : iecompattest().clientWidth-10;
+		doc_height=(window.innerHeight && snowdistance=="windowheight")? window.innerHeight : (ie4up && snowdistance=="windowheight")?  iecompattest().clientHeight : (ie4up && !window.opera && snowdistance=="pageheight")? iecompattest().scrollHeight : iecompattest().offsetHeight;
+    for (i = 0; i < no; ++ i) {  // iterate for every dot
+      yp[i] += sty[i];
+      if (yp[i] > doc_height-50) {
+        xp[i] = Math.random()*(doc_width-am[i]-30);
+        yp[i] = 0;
+        stx[i] = 0.02 + Math.random()/10;
+        sty[i] = 0.7 + Math.random();
+      }
+      dx[i] += stx[i];
+      document.getElementById("dot"+i).style.top=yp[i]+"px";
+      document.getElementById("dot"+i).style.left=xp[i] + am[i]*Math.sin(dx[i])+"px";  
+    }
+    snowtimer=setTimeout("snowIE_NS6()", 10);
+  }
+
+	function hidesnow(){
+		if (window.snowtimer) clearTimeout(snowtimer)
+		for (i=0; i<no; i++) document.getElementById("dot"+i).style.visibility="hidden"
+	}
+		
+
+if (ie4up||ns6up){
+    snowIE_NS6();
+		if (hidesnowtime>0)
+		setTimeout("hidesnow()", hidesnowtime*1000)
+		}
+</script></p>
+  </p>
+</body>
+</html>

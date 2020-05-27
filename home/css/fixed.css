@@ -1,0 +1,35 @@
+/* 2005 http://www.dellwebsites.com */
+
+html, body, ul, ol, li, p, h1, h2, h3, h4, h5, h6{
+	margin: 0; padding: 0; border: 0;}
+
+body {text-align: center;
+	font: 80%/140% Arial, Helvetica, sans-serif;
+	color: #D30B0D;
+	background: #FBFBFB url(_images/berries.jpg) no-repeat center right fixed;}
+	
+#wrapper {margin: 0 auto;
+	text-align: left;
+	width: 650px;}
+#contentleft {float: left;
+	width: 449px;}
+ #contentleft p {padding-left: 5px;
+	margin: 0 28px 0 20px;}
+
+h1 {font-size: 105%;
+	color: #5D9436;
+	padding: 6px;
+	margin-left: 17px;}
+	
+	a, a:visited {
+	text-decoration: none;
+	border: solid #000 1px;
+	padding: 3px;
+	color: #90B242;
+	background: #586669;
+}
+a:hover, a:active {
+	color: #FFF;
+	border: outset #586669 1px;
+	background: #DFA81A;
+}
